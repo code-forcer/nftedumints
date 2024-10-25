@@ -1,0 +1,34 @@
+/* Global Page Container Styling */
+.pageContainer {
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.pageTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0b65c6;
+    margin-bottom: 10px;
+}
+
+.pageDescription {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Footer Styling */
+.footer {
+    padding: 10px;
+    background-color: #102343;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer .bold {
+    cursor: pointer;
+    color: #0b65c6;
+    text-decoration: none;
+}

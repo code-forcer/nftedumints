@@ -1,0 +1,80 @@
+/* Container and Title Styling */
+.exploreContainer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.exploreTitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.exploreDescription {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* NFT Grid Styling */
+.nftGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* NFT Card Styling */
+.nftCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    position: relative;
+}
+
+.nftCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nftImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nftTitle {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 10px 5px;
+    font-weight: bold;
+}
+
+.nftDescription {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 10px 15px;
+    line-height: 1.4;
+}
+
+.nftButton {
+    background-color: #0e4aff;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.nftButton:hover {
+    background-color: #0e4aff;
+}

@@ -1,0 +1,131 @@
+/* Community Banner Styling */
+.communityContainer {
+    padding: 20px;
+}
+
+.communityBanner {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('../../public/Wallpaper/1.avif');
+    background-size: cover;
+    background-position: center;
+    color: #1da1f2;
+    border-radius: 8px;
+}
+
+.communityTitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.communityDescription {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Social Icons Styling */
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.socialLink {
+    color: #fff;
+    font-size: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.socialLink:hover .discord {
+    color: #5865f2;
+    transform: scale(1.1);
+}
+
+.socialLink:hover .twitter {
+    color: #1da1f2;
+    transform: scale(1.1);
+}
+
+.socialLink:hover .instagram {
+    color: #e4405f;
+    transform: scale(1.1);
+}
+
+.socialLink:hover .linkedin {
+    color: #0077b5;
+    transform: scale(1.1);
+}
+
+/* Featured Events Section */
+.featuredEvents {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    color: #0b65c6;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Event Grid Styling */
+.eventsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.eventCard {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.eventCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.eventImage {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.eventTitle {
+    font-size: 1.4rem;
+    color: #333;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+.eventDescription {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 15px 15px;
+}
+
+.eventButton {
+    background-color: #0b65c6;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.eventButton:hover {
+    background-color: #0ea4ff;
+}

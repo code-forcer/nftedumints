@@ -1,0 +1,179 @@
+/* Header background and main styling */
+.header {
+    padding: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-image: url('../assets/1227243308603146260.webp');
+    /* NFT-inspired background */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    border-radius: 5px;
+    height: 70px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.navItem {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #ddd;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.navItem:hover,
+.activeNavItem {
+    color: #0b65c6;
+}
+
+.activeNavItem {
+    border-bottom: 3px solid #0b65c6;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.searchInput {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #333;
+}
+
+.searchButton {
+    padding: 10px;
+    background-color: #0b65c64;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+
+.nav {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    margin: 0 10px;
+}
+
+/* Hamburger button */
+.hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.hamburger svg {
+    font-size: 28px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        z-index: 10;
+        transform: translateY(-100%);
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav.mobileNavOpen {
+        display: flex;
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .nav ul li a {
+        font-size: 20px;
+        padding: 10px 0;
+        color: #ddd;
+        text-align: left;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.open {
+        transform: rotate(90deg);
+    }
+
+    .searchForm {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+    .hamburger {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+    }
+}
