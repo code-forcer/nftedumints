@@ -6,25 +6,25 @@ const nftData = [
     id: 1,
     title: "Digital Skill Mastery",
     description: "Earn badges and track skill levels with evolving NFTs based on your learning progress.",
-    imageUrl: "../wallpaper/1235837944728915968.jpeg",
+    imageUrl: "../Wallpaper/1235837944728915968.jpeg",
   },
   {
     id: 2,
     title: "Project-Based Learning",
     description: "Showcase applied knowledge with NFTs evolving as you complete real-world projects.",
-    imageUrl: "../wallpaper/1235837922792706099.jpeg",
+    imageUrl: "../Wallpaper/1235837922792706099.jpeg",
   },
   {
     id: 3,
     title: "Consistency Streak",
     description: "Maintain a streak and watch your NFT garden grow with each login.",
-    imageUrl: "../wallpaper/1235837929767829526.jpeg",
+    imageUrl: "../Wallpaper/1235837929767829526.jpeg",
   },
   {
     id: 4,
     title: "Peer Mentorship",
     description: "NFTs that evolve as you help others and contribute knowledge to the community.",
-    imageUrl: "../wallpaper/1235838683068764200.jpeg",
+    imageUrl: "../Wallpaper/1235838683068764200.jpeg",
   },
 ];
 
